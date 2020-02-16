@@ -50,3 +50,15 @@ describe("3. Longest Substring Without Repeating Characters", () => {
     });
   });
 });
+
+// https://leetcode.com/problems/median-of-two-sorted-arrays/
+describe("4. Median of Two Sorted Arrays", () => {
+  describe("when nums1=[1, 2], nums2=[3, 4]", () => {
+    const inputOne = [1, 2];
+    const inputTwo = [3, 4];
+
+    it("should return 2.5", () => {
+      expect(solution.Median(inputOne, inputTwo)).toBe(2.5);
+    });
+  });
+});
