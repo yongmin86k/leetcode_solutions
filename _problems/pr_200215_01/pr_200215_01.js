@@ -8,9 +8,6 @@
  * return [0, 1].
  */
 
-const INPUT = [2, 7, 11, 15];
-const TARGET = 9;
-
 const twoSum = (nums, target) => {
   const obj = {};
 
@@ -20,4 +17,4 @@ const twoSum = (nums, target) => {
   }
 };
 
-twoSum(INPUT, TARGET);
+module.exports = twoSum;
