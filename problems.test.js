@@ -39,3 +39,14 @@ describe("2. Add Two Numbers", () => {
     });
   });
 });
+
+// https://leetcode.com/problems/longest-substring-without-repeating-characters/
+describe("3. Longest Substring Without Repeating Characters", () => {
+  describe("when string='abcabcdbb'", () => {
+    const INPUT = "abcabcdbb";
+
+    it("should return 4", () => {
+      expect(solution.LongestSubstring(INPUT)).toBe(4);
+    });
+  });
+});

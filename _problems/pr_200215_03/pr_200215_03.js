@@ -18,8 +18,6 @@
  * Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
  */
 
-const INPUT = "abcabcdbb";
-
 const lengthOfLongestSubstring = s => {
   if (s.length < 1) {
     return 0;
@@ -43,4 +41,4 @@ const lengthOfLongestSubstring = s => {
   }
 };
 
-lengthOfLongestSubstring(INPUT);
+module.exports = lengthOfLongestSubstring;
