@@ -15,14 +15,6 @@ class ListNode {
   }
 }
 
-const INPUT1 = new ListNode(2);
-INPUT1.next = new ListNode(4);
-INPUT1.next.next = new ListNode(3);
-
-const INPUT2 = new ListNode(5);
-INPUT2.next = new ListNode(6);
-INPUT2.next.next = new ListNode(4);
-
 const sumLinkedLists = (l1, l2) => {
   let res = new ListNode();
   let currNode = res;
@@ -51,6 +43,7 @@ const sumLinkedLists = (l1, l2) => {
     currNode.next = new ListNode(sum);
     currNode = currNode.next;
   }
+
   return res.next;
 };
 
@@ -60,4 +53,4 @@ const addTwoNumbers = function(l1, l2) {
   }
 };
 
-addTwoNumbers(INPUT1, INPUT2);
+module.exports = addTwoNumbers;
