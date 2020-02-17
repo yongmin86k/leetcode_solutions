@@ -62,3 +62,14 @@ describe("4. Median of Two Sorted Arrays", () => {
     });
   });
 });
+
+// https://leetcode.com/problems/longest-palindromic-substring/
+describe("5. Longest Palindromic Substring", () => {
+  describe("when string is very long", () => {
+    const INPUT =
+      "jhgtrclvzumufurdemsogfkpzcwgyepdwucnxrsubrxadnenhvjyglxnhowncsubvdtftccomjufwhjupcuuvelblcdnuchuppqpcujernplvmombpdttfjowcujvxknzbwmdedjydxvwykbbamfnsyzcozlixdgoliddoejurusnrcdbqkfdxsoxxzlhgyiprujvvwgqlzredkwahexewlnvqcwfyahjpeiucnhsdhnxtgizgpqphunlgikogmsffexaeftzhblpdxrxgsmeascmqngmwbotycbjmwrngemxpfakrwcdndanouyhnnrygvntrhcuxgvpgjafijlrewfhqrguwhdepwlxvrakyqgstoyruyzohlvvdhvqmzdsnbtlwctetwyrhhktkhhobsojiyuydknvtxmjewvssegrtmshxuvzcbrabntjqulxkjazrsgbpqnrsxqflvbvzywzetrmoydodrrhnhdzlajzvnkrcylkfmsdode";
+    it("should return 'hhktkhh'", () => {
+      expect(solution.LongestPalindromic(INPUT)).toBe("hhktkhh");
+    });
+  });
+});
