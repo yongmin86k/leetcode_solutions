@@ -13,3 +13,4 @@
 |  3  | [Longest Substring Without Repeating Characters](_problems/pr_200215_03) |   Medium   |
 |  4  | [Median of Two Sorted Arrays](_problems/pr_200216_01)                    |    Hard    |
 |  5  | [Longest Palindromic Substring](_problems/pr_200216_02)                  |   Medium   |
+|  6  | [ZigZag Conversion](_problems/pr_200217_01)                              |   Medium   |
