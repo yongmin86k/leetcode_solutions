@@ -20,44 +20,43 @@ const longestPalindrome = function(s) {
 };
 
 const findPalindrome = s => {
-  const n = s.length;
-  const arrWords = [];
+  let maxL, maxR, limitPalindrome, left, right, maxIndex, i, result;
+  maxL = 0;
+  maxR = 0;
+  i = 0;
+  maxIndex = s.length - 1;
 
-  let i = 0;
+  while (i < s.length) {
+    left = i;
+    right = i;
 
-  while (i < n - 1) {
-    const targetLetter = s.slice(i, i + 1);
-    const m = n - i - 1;
-
-    for (t = 0; t < m; t++) {
-      const found = s.endsWith(targetLetter, s.length - t);
-
-      if (found) {
-        const letterLength = n - t - i;
-        const word = s.slice(i, n - t);
-        const wordReverse = word
-          .split("")
-          .reverse()
-          .join("");
-
-        if (word === wordReverse) {
-          arrWords.push({
-            l: letterLength,
-            w: word
-          });
-        }
-      }
+    while (right < maxIndex && s[right] === s[right + 1]) {
+      right++;
     }
 
-    i++;
+    i = right + 1;
+
+    while (left > 0 && right < maxIndex && s[left - 1] === s[right + 1]) {
+      left--;
+      right++;
+    }
+
+    limitPalindrome = maxR - maxL;
+
+    if (right - left > limitPalindrome) {
+      maxL = left;
+      maxR = right;
+
+      if (maxR - maxL === maxIndex) {
+        result = s;
+        return result;
+      }
+    }
   }
 
-  if (arrWords.length > 0) {
-    arrWords.sort((a, b) => b.l - a.l);
-    return arrWords[0].w;
-  } else {
-    return s.slice(0, 1);
-  }
+  result = s.slice(maxL, maxR + 1);
+
+  return result;
 };
 
 module.exports = longestPalindrome;
