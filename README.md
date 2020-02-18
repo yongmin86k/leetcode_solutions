@@ -8,7 +8,7 @@
 
 |  #  | Title                                          | Difficulty |
 | :-: | ---------------------------------------------- | :--------: |
-|  1  | Two Sum                                        |    Easy    |
+|  1  | [Two Sum](_problems/pr_200215_01)              |    Easy    |
 |  2  | Add Two Numbers                                |   Medium   |
 |  3  | Longest Substring Without Repeating Characters |   Medium   |
 |  4  | Median of Two Sorted Arrays                    |    Hard    |
