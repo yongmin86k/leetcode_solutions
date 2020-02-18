@@ -73,3 +73,17 @@ describe("5. Longest Palindromic Substring", () => {
     });
   });
 });
+
+// https://leetcode.com/problems/zigzag-conversion/
+describe("6. ZigZag Conversion", () => {
+  describe("when string='PAYPALISHIRING', row=3", () => {
+    const inputOne = "PAYPALISHIRING";
+    const inputTwo = 3;
+
+    it("should return 'PAHNAPLSIIGYIR'", () => {
+      expect(solution.ZigZagConversion(inputOne, inputTwo)).toBe(
+        "PAHNAPLSIIGYIR"
+      );
+    });
+  });
+});
