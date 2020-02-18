@@ -6,10 +6,10 @@
 
 ## Table of Contents
 
-|  #  | Title                                          | Difficulty |
-| :-: | ---------------------------------------------- | :--------: |
-|  1  | [Two Sum](_problems/pr_200215_01)              |    Easy    |
-|  2  | [Add Two Numbers](_problems/pr_200215_02)      |   Medium   |
-|  3  | Longest Substring Without Repeating Characters |   Medium   |
-|  4  | Median of Two Sorted Arrays                    |    Hard    |
-|  5  | Longest Palindromic Substring                  |   Medium   |
+|  #  | Title                                                                    | Difficulty |
+| :-: | ------------------------------------------------------------------------ | :--------: |
+|  1  | [Two Sum](_problems/pr_200215_01)                                        |    Easy    |
+|  2  | [Add Two Numbers](_problems/pr_200215_02)                                |   Medium   |
+|  3  | [Longest Substring Without Repeating Characters](_problems/pr_200215_03) |   Medium   |
+|  4  | [Median of Two Sorted Arrays](_problems/pr_200216_01)                    |    Hard    |
+|  5  | [Longest Palindromic Substring](_problems/pr_200216_02)                  |   Medium   |
