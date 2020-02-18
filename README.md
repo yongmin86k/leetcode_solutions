@@ -4,6 +4,14 @@
 
 [https://leetcode.com/](https://leetcode.com/)
 
+&nbsp;
+
+## Run tests
+
+`yarn test` or `npm test`
+
+&nbsp;
+
 ## Table of Contents
 
 |  #  | Title                                                                    | Difficulty |
