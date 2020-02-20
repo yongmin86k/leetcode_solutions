@@ -4,6 +4,7 @@ const LongestSubstring = require("./pr_200215_03/pr_200215_03");
 const Median = require("./pr_200216_01/pr_200216_01");
 const LongestPalindromic = require("./pr_200216_02/pr_200216_02");
 const ZigZagConversion = require("./pr_200217_01/pr_200217_01");
+const ReverseInteger = require("./pr_200220_01/pr_200220_01");
 
 module.exports = {
   TwoSum,
@@ -11,5 +12,6 @@ module.exports = {
   LongestSubstring,
   Median,
   LongestPalindromic,
-  ZigZagConversion
+  ZigZagConversion,
+  ReverseInteger
 };

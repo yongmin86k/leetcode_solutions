@@ -87,3 +87,30 @@ describe("6. ZigZag Conversion", () => {
     });
   });
 });
+
+//leetcode.com/problems/reverse-integer/
+describe("7. Reverse Integer", () => {
+  describe("when interger=120", () => {
+    const INPUT = 120;
+
+    it("should return 21", () => {
+      expect(solution.ReverseInteger(INPUT)).toBe(21);
+    });
+  });
+
+  describe("when interger=1534236469", () => {
+    const INPUT = 1534236469;
+
+    it("should return 0", () => {
+      expect(solution.ReverseInteger(INPUT)).toBe(0);
+    });
+  });
+
+  describe("when interger=-123", () => {
+    const INPUT = -123;
+
+    it("should return -321", () => {
+      expect(solution.ReverseInteger(INPUT)).toBe(-321);
+    });
+  });
+});
