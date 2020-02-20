@@ -114,3 +114,33 @@ describe("7. Reverse Integer", () => {
     });
   });
 });
+
+// https://leetcode.com/problems/add-two-numbers/
+describe("23. Merge k Sorted Lists", () => {
+  describe("when linked list=(2 -> 4 -> 3) + (5 -> 6 -> 4)", () => {
+    const lnOne = new ListNode(1);
+    lnOne.next = new ListNode(4);
+    lnOne.next.next = new ListNode(5);
+
+    const lnTwo = new ListNode(1);
+    lnTwo.next = new ListNode(3);
+    lnTwo.next.next = new ListNode(4);
+
+    const lnThree = new ListNode(2);
+    lnThree.next = new ListNode(6);
+
+    const INPUT = [lnOne, lnTwo, lnThree];
+    const answer = new ListNode(1);
+    answer.next = new ListNode(1);
+    answer.next.next = new ListNode(2);
+    answer.next.next.next = new ListNode(3);
+    answer.next.next.next.next = new ListNode(4);
+    answer.next.next.next.next.next = new ListNode(4);
+    answer.next.next.next.next.next.next = new ListNode(5);
+    answer.next.next.next.next.next.next.next = new ListNode(6);
+
+    it("should return 1->1->2->3->4->4->5->6", () => {
+      expect(solution.MergeKSortedLists(INPUT)).toEqual(answer);
+    });
+  });
+});

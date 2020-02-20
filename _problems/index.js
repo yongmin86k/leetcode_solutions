@@ -5,6 +5,7 @@ const Median = require("./pr_200216_01/pr_200216_01");
 const LongestPalindromic = require("./pr_200216_02/pr_200216_02");
 const ZigZagConversion = require("./pr_200217_01/pr_200217_01");
 const ReverseInteger = require("./pr_200220_01/pr_200220_01");
+const MergeKSortedLists = require("./pr_200220_02/pr_200220_02");
 
 module.exports = {
   TwoSum,
@@ -13,5 +14,6 @@ module.exports = {
   Median,
   LongestPalindromic,
   ZigZagConversion,
-  ReverseInteger
+  ReverseInteger,
+  MergeKSortedLists
 };
