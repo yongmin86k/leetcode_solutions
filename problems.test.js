@@ -6,6 +6,12 @@ class ListNode {
     this.next = null;
   }
 }
+class TreeNode {
+  constructor(val) {
+    this.val = val;
+    this.left = this.right = null;
+  }
+}
 
 // https://leetcode.com/problems/two-sum/
 describe("1. Two Sum", () => {
@@ -141,6 +147,21 @@ describe("23. Merge k Sorted Lists", () => {
 
     it("should return 1->1->2->3->4->4->5->6", () => {
       expect(solution.MergeKSortedLists(INPUT)).toEqual(answer);
+    });
+  });
+});
+
+// https://leetcode.com/problems/add-two-numbers/
+describe("104. Maximum Depth of Binary Tree", () => {
+  describe("when binary tree=[3,9,20,null,null,15,7]", () => {
+    const INPUT = new TreeNode(3);
+    INPUT.left = new TreeNode(9);
+    INPUT.right = new TreeNode(20);
+    INPUT.right.left = new TreeNode(15);
+    INPUT.right.right = new TreeNode(7);
+
+    it("should return 3", () => {
+      expect(solution.MaximumDepthofBinaryTree(INPUT)).toBe(3);
     });
   });
 });
