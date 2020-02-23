@@ -23,5 +23,6 @@
 |  5  | [Longest Palindromic Substring](_problems/pr_200216_02)                  |   Medium   |
 |  6  | [ZigZag Conversion](_problems/pr_200217_01)                              |   Medium   |
 |  7  | [Reverse Integer](_problems/pr_200220_01)                                |    Easy    |
+| 20  | [Valid Parentheses](_problems/pr_200223_01)                              |    Easy    |
 | 23  | [Merge k Sorted Lists](_problems/pr_200220_02)                           |    Hard    |
 | 104 | [Maximum Depth of Binary Tree](_problems/pr_200220_03)                   |    Easy    |

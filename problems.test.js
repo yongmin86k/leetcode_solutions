@@ -121,6 +121,17 @@ describe("7. Reverse Integer", () => {
   });
 });
 
+// https://leetcode.com/problems/valid-parentheses/
+describe("20. Valid Parentheses", () => {
+  describe("when string='[()()()]()(){[(]}'", () => {
+    const INPUT = "[()()()]()(){[(]}";
+
+    it("should return false", () => {
+      expect(solution.ValidParentheses(INPUT)).toBe(false);
+    });
+  });
+});
+
 // https://leetcode.com/problems/add-two-numbers/
 describe("23. Merge k Sorted Lists", () => {
   describe("when linked list=(2 -> 4 -> 3) + (5 -> 6 -> 4)", () => {

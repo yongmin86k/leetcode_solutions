@@ -7,6 +7,7 @@ const ZigZagConversion = require("./pr_200217_01/pr_200217_01");
 const ReverseInteger = require("./pr_200220_01/pr_200220_01");
 const MergeKSortedLists = require("./pr_200220_02/pr_200220_02");
 const MaximumDepthofBinaryTree = require("./pr_200220_03/pr_200220_03");
+const ValidParentheses = require("./pr_200223_01/pr_200223_01");
 
 module.exports = {
   TwoSum,
@@ -16,5 +17,7 @@ module.exports = {
   LongestPalindromic,
   ZigZagConversion,
   ReverseInteger,
-  MaximumDepthofBinaryTree
+  MergeKSortedLists,
+  MaximumDepthofBinaryTree,
+  ValidParentheses
 };
