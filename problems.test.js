@@ -176,3 +176,24 @@ describe("104. Maximum Depth of Binary Tree", () => {
     });
   });
 });
+
+// https://leetcode.com/problems/number-of-islands/
+describe("200. Number of Islands", () => {
+  describe(`when grid=[
+    ['1', '1', '0', '1', '0'],
+    ['1', '1', '0', '1', '0'],
+    ['1', '1', '0', '0', '0'],
+    ['0', '0', '0', '0', '1']
+  ]`, () => {
+    const INPUT = [
+      ["1", "1", "0", "1", "0"],
+      ["1", "1", "0", "1", "0"],
+      ["1", "1", "0", "0", "0"],
+      ["0", "0", "0", "0", "1"]
+    ];
+
+    it("should return r", () => {
+      expect(solution.NumberofIslands(INPUT)).toBe(3);
+    });
+  });
+});

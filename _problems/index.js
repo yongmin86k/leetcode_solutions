@@ -8,6 +8,7 @@ const ReverseInteger = require("./pr_200220_01/pr_200220_01");
 const MergeKSortedLists = require("./pr_200220_02/pr_200220_02");
 const MaximumDepthofBinaryTree = require("./pr_200220_03/pr_200220_03");
 const ValidParentheses = require("./pr_200223_01/pr_200223_01");
+const NumberofIslands = require("./pr_200224_01/pr_200224_01");
 
 module.exports = {
   TwoSum,
@@ -19,5 +20,6 @@ module.exports = {
   ReverseInteger,
   MergeKSortedLists,
   MaximumDepthofBinaryTree,
-  ValidParentheses
+  ValidParentheses,
+  NumberofIslands
 };
