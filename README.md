@@ -25,5 +25,6 @@
 |  7  | [Reverse Integer](_problems/pr_200220_01)                                |    Easy    |
 | 20  | [Valid Parentheses](_problems/pr_200223_01)                              |    Easy    |
 | 23  | [Merge k Sorted Lists](_problems/pr_200220_02)                           |    Hard    |
+| 42  | [Trapping Rain Water](_problems/pr_200225_01)                            |    Hard    |
 | 104 | [Maximum Depth of Binary Tree](_problems/pr_200220_03)                   |    Easy    |
 | 200 | [Number of Islands](_problems/pr_200224_01)                              |   Medium   |

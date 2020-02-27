@@ -162,6 +162,17 @@ describe("23. Merge k Sorted Lists", () => {
   });
 });
 
+// https://leetcode.com/problems/trapping-rain-water/s/add-two-numbers/
+describe("42. Trapping Rain Water", () => {
+  describe("when array=[5, 4, 1, 2]", () => {
+    const INPUT = [5, 4, 1, 2];
+
+    it("should return 1", () => {
+      expect(solution.TrappingRainWater(INPUT)).toBe(1);
+    });
+  });
+});
+
 // https://leetcode.com/problems/add-two-numbers/
 describe("104. Maximum Depth of Binary Tree", () => {
   describe("when binary tree=[3,9,20,null,null,15,7]", () => {
